@@ -1,0 +1,51 @@
+mongoimport --db ninjago --collection ninja ninja.json
+
+{
+  "name": "ivan",
+  "rank": "black belt",
+  "available": true,
+  "geometry": {
+    "type": "point",
+    "coordinates": [-80, 25.791]
+  }
+} {
+  "name": "jan",
+  "rank": "red belt",
+  "available": true,
+  "geometry": {
+    "type": "point",
+    "coordinates": [-80.245, 25.391]
+  }
+} {
+  "name": "toma",
+  "rank": "purple belt",
+  "available": true,
+  "geometry": {
+    "type": "point",
+    "coordinates": [-82.589, 26.701]
+  }
+} {
+  "name": "pero",
+  "rank": "brown belt",
+  "available": true,
+  "geometry": {
+    "type": "point",
+    "coordinates": [-81.1, 24.95]
+  }
+} {
+  "name": "emil",
+  "rank": "yellow belt",
+  "available": true,
+  "geometry": {
+    "type": "point",
+    "coordinates": [-79.789, 25.01]
+  }
+} {
+  "name": "mario",
+  "rank": "no belt",
+  "available": true,
+  "geometry": {
+    "type": "point",
+    "coordinates": [-81.1, 24.95]
+  }
+}
