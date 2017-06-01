@@ -4,6 +4,7 @@
   "description": "Course files for the REST API tutorial series on The Net Ninja Youtube channel",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
